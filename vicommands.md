@@ -73,6 +73,10 @@ cd ../..
 
 7. history 
 
+* It provides the history of the commands in the terminal. 
+* It is used to look throught the commands that you have entered. 
+* The syntax is history
+
 
 
 

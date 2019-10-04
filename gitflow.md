@@ -23,18 +23,16 @@
 * It captures the snapshot of the currently made changes in git. 
 
 6. Merge
- * It is used to merge the work from different branches to the master branch.
+ 
 
 7. Checkout
-* checkout is used to go to a particular branch.  
-* Basically it helps us navigating between branches.
+
 
 
 8. Push
- * Push command is used to basically push the changes we made in the local repository to remote repository.
+ 
 
 9. Pull
-* It is used to update the local version of a repository from a remote.
 
 
 

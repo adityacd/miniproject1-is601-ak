@@ -2,14 +2,15 @@
 
 
 1. Repository
-
+* A repository is like a folder for your project.
+* Your project's repository contains all of your project's files and stores each file's revision history.
+* You can also discuss and manage your project's work within the repository.
 
 2. Clone
 
 
 3. Fork  
 * It is used to access the contents of the owner repository.
-
 
 
 4. Branch

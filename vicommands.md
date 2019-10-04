@@ -22,17 +22,17 @@
 * We use the command cd followed by the file name we want to go.
 
 To go to a particular directory
-'''
+```
 cd <directoryname>
-'''
+```
 To go a directory back or up
-'''  
+```  
 cd ..
-'''
+```
 To go multiple directory up or back
-'''
+```
 cd ../..
-'''
+```
 
 2. mkdir
 

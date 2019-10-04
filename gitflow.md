@@ -19,6 +19,7 @@
 
 5. Commit
 
+* It captures the snapshot of the currently made changes in git. 
 
 6. Merge
 

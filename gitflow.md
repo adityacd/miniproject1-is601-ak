@@ -30,7 +30,7 @@
 
 
 8. Push
-
+ * Push command is used to basically push the changes we made in the local repository to remote repository.
 
 9. Pull
 

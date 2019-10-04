@@ -7,7 +7,12 @@
 * You can also discuss and manage your project's work within the repository.
 
 2. Clone
-
+* Clone is primarily used to point to an existing repo and make a clone or copy of that repo at in a new directory, at another location.
+* The original repository can be located on the local filesystem or on remote machine accessible supported protocols.
+* git clone is used.
+```
+git clone <repositorylink>
+```
 
 3. Fork  
 * It is used to access the contents of the owner repository.

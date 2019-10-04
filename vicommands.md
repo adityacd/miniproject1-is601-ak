@@ -36,7 +36,9 @@ cd ../..
 
 2. mkdir
 
-
+* It stands for make directory.
+* It is used to create a folder to store files and information. 
+* We use the command mkdir followed by file name.
 3. cp
 
 

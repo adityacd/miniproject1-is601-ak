@@ -2,7 +2,7 @@
 
 
 
-##What is a Filesystem?
+## What is a Filesystem?
 
 * A file system stores and organizes data and can be thought of as a type of index for all the data contained in a storage device.
 * Without a file system, stored information wouldn't be isolated into individual files and difficult to identify.

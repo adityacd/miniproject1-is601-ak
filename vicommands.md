@@ -64,6 +64,11 @@ cd ../..
 
 6. rm   
 
+* rm stands for remove. 
+* It is used to delete files or directories. 
+* The command is used by typing rm followed by the file or directory we want to delete.
+ 
+
 
 
 7. history 

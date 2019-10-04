@@ -7,7 +7,9 @@
 2. Clone
 
 
-3. Fork
+3. Fork  
+* It is used to access the contents of the owner repository.
+
 
 
 4. Branch

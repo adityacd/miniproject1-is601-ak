@@ -25,6 +25,8 @@
  * It is used to merge the work from different branches to the master branch.
 
 7. Checkout
+* checkout is used to go to a particular branch.  
+* Basically it helps us navigating between branches.
 
 
 8. Push

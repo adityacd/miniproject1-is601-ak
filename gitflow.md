@@ -33,6 +33,8 @@
  * Push command is used to basically push the changes we made in the local repository to remote repository.
 
 9. Pull
+* It is used to update the local version of a repository from a remote.
+
 
 
 10. Remote Add/Remove/Show

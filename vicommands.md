@@ -47,29 +47,21 @@ cd ../..
 
 
 4. pwd 
-* It provides the current working directory. 
-* Used to check where are we working in the file system. 
-* The command is pwd.
+
 
 
 5. mv  
-* It is used to move files from one directory to another within the filesystem. 
-* Instead of copy pasting manually we can move any file with a simple command in the terminal. 
-* The Syntax is mv <filename> <dir>.
 
 
 
-6. rm  
-* rm stands for remove. 
-* It is used to delete files or directories.  
-* The command is used by typing rm followed by the file or directory we want to delete. 
+
+
+6. rm   
 
 
 
 7. history 
-* It provides the history of the commands in the terminal. 
-* It is used to look throught the commands that you have entered. 
-* The syntax is history
+
 
 
 

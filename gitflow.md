@@ -13,6 +13,8 @@
 
 
 4. Branch
+* A branch is a reference to a commit. 
+* The branch represents the top of a series of commits.
 
 
 5. Commit

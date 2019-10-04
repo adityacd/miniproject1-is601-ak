@@ -25,7 +25,7 @@
 * It captures the snapshot of the currently made changes in git. 
 
 6. Merge
- 
+* It is used to merge the work from different branches to the master branch. 
 
 7. Checkout
 

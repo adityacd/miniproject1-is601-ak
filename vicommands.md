@@ -55,6 +55,9 @@ cd ../..
 
 5. mv  
 
+* It is used to move files from one directory to another within the filesystem. 
+* Instead of copy pasting manually we can move any file with a simple command in the terminal. 
+* The Syntax is mv <filename> <dir>.
 
 
 

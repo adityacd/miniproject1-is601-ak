@@ -43,10 +43,13 @@ cd ../..
 3. cp 
 * It stands for make directory
 * It is used to create a folder to store files and information 
-* We use the command mkdir followed by file name, 
+* We use the command mkdir followed by file name. 
 
 
 4. pwd 
+* It provides the current working directory. 
+* Used to check where are we working in the file system. 
+* The command is pwd.
 
 
 

@@ -78,6 +78,9 @@ cd ../..
 
 
 10. Using tab key to complete file paths
-
+* The tab key is used to complete to filenames or git commands.
+* Instead of typing the complete filename or command, just enter 2-3 inital characters
+ 
+and press tab key.
 
 11. Using up and down arrow key for history

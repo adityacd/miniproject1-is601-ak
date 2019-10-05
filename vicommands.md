@@ -59,28 +59,20 @@ cd ../..
 * Instead of copy pasting manually we can move any file with a simple command in the terminal. 
 * The Syntax is mv <filename> <dir>.
 
-
-
-
 6. rm   
 
 * rm stands for remove. 
 * It is used to delete files or directories. 
 * The command is used by typing rm followed by the file or directory we want to delete.
  
-
-
-
 7. history 
 
 * It provides the history of the commands in the terminal. 
 * It is used to look throught the commands that you have entered. 
 * The syntax is history
 
-
-
-
 8. Home directory and ~
+* It shows and directs to the users **home directory** in the filesystem, simply enter the following.
 
 9. Filepath in linux
 

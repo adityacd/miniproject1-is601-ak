@@ -6,7 +6,7 @@
 
 * A file system stores and organizes data and can be thought of as a type of index for all the data contained in a storage device.
 * Without a file system, stored information wouldn't be isolated into individual files and difficult to identify.
-* As data capacities increase, the organization and accessibility of individual files are becoming even more important in data storage.
+* As data capacities increase, the organization and accessibility of individual files are becoming even more important in storage.
 
 ## What is vi?
 * The vi editor (short for visual editor) is a screen editor which is available on almost all Unix systems. Once you have learned vi, you will find that it is a fast and powerful editor. vi has no menus but instead uses combinations of keystrokes in order to accomplish commands. 
@@ -81,7 +81,6 @@ cd ../..
 
 
 8. Home directory and ~
-
 
 9. Filepath in linux
 

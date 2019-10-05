@@ -42,7 +42,8 @@
 * It immediately update the local repository to match that content.
 
 10. Remote Add/Remove/Show
-
+* The git remote command lets you create, view, and delete connections to other repositories.
+* Remote connections are more like bookmarks rather than direct links into other repositories.
 
 11. Status
 * The git status command displays the state of the working directory and the staging area.

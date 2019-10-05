@@ -84,3 +84,4 @@ cd ../..
 and press tab key.
 
 11. Using up and down arrow key for history
+* Up and Down arrow keys can be used to toggle through the previous commands that were entered.

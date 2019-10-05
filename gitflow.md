@@ -38,8 +38,8 @@
 * Pushing is how you transfer commits from local to remote repo.
 
 9. Pull
-
-
+* The git pull command is used to fetch and download content from a remote repository.
+* It immediately update the local repository to match that content.
 
 10. Remote Add/Remove/Show
 

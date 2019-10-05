@@ -74,8 +74,10 @@ cd ../..
 8. Home directory and ~
 * It shows and directs to the users **home directory** in the filesystem, simply enter the following.
 
-9. Filepath in linux
-
+9. Filepath in Linux
+* A path is a unique location to a file or a folder in a file system. It is a combination of ( / ) and alpha-numeric characters.
+* An absolute path is defined as the specifying the location of a file or directory from the root directory( / ).
+* Start at the root directory ( / ) and work down.
 
 10. Using tab key to complete file paths
 * The tab key is used to complete to filenames or git commands.

@@ -28,7 +28,9 @@
 * It is used to merge the work from different branches to the master branch. 
 
 7. Checkout
-
+* The checkout is used in git to select a branch in a repository. 
+* Branching helps to organize work.
+* The branches can be merged toghether.
 
 
 8. Push

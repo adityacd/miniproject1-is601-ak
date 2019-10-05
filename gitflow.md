@@ -34,7 +34,8 @@
 
 
 8. Push
- 
+* The git push command is used to upload local repository content to a remote repository.
+* Pushing is how you transfer commits from local to remote repo.
 
 9. Pull
 

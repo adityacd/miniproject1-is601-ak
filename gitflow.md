@@ -39,12 +39,21 @@ Here the **local repository** is on left side and **remote repository** is on ri
 
 6. Merge
 * It is used to merge the work from different branches to the master branch. 
+* Merging updates the commits (or changes) that are made from one branch to another. 
+```
+$ git merge
+```
+* Here you can see the **Feature Branch**(green) is merged with **Master Branch**(sky blue).
+* This merging is also commited.
 
+![Merge](https://user-images.githubusercontent.com/37020817/66276367-5873cf80-e860-11e9-8992-3513d9401a88.png)
+
+The command will be
+```
+$ git merge Feature
+```
 7. Checkout
-* The checkout is used in git to select a branch in a repository. 
-* Branching helps to organize work.
-* The branches can be merged toghether.
-
+* Th
 
 8. Push
 * The git push command is used to upload local repository content to a remote repository.
@@ -84,24 +93,24 @@ The following are some commands of remote.
 
 List the remote connections you have to the  other repositories.
 ```
-git remote
+$ git remote
 origin
 ```
 Here just include the URL of the connection.
 ```
-git remote -v
+$ git remote -v
 ```
 After adding a remote, you’ll be able to use <name> as a convenient shortcut for <url> in other Git commands.
 ```
-git remote add <name> <url>
+$ git remote add <name> <url>
 ```
 To remove remove the connection to the remote repository just do the following.
 ```
-git remote rm <name>
+$ git remote rm <name>
 ```
 To rename a file use the following command <old-name> changes to <new-name>.
 ```
-git remote rename <old-name> <new-name>
+$ git remote rename <old-name> <new-name>
 ```
 11. Status
 * The git status command displays the state of the working directory and the staging area.
@@ -132,3 +141,5 @@ Changes to be committed:
 * The default branch name in Git is **master**.
 * As you start making commits, you're given a master branch that points to the last commit you made.
 * Every time you commit, the master branch pointer moves forward automatically.
+
+![Branch](https://user-images.githubusercontent.com/37020817/66276352-22365000-e860-11e9-97ea-dea43e14497e.png)

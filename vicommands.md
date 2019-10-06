@@ -63,7 +63,6 @@ If we want to copy multiple files into a directory we use cp with a list of sour
 cp biopic/ray.txt  biopic/notorious.txt  historical/
 ```
 
-
 4. pwd 
 * It provides the current working directory. 
 * Used to check where are we working in the file system. 

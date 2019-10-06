@@ -54,31 +54,45 @@ $ git merge
 
 ![Merge](https://user-images.githubusercontent.com/37020817/66276367-5873cf80-e860-11e9-8992-3513d9401a88.png)
 
-The command will be
+The command will be,
 ```
 $ git merge Feature
 ```
 7. Checkout
-* Th
+* The checkout is used in git to select a branch in a repository.
 
+This command will select the branch 'aditya'. Similarly you can select the master branch.
+```
+$ git checkout aditya
+```
+
+If you want to go back to a previous commit, while keeping all of your other history, simply checkout that commit.
+This will put you in a detached state, where you're not checked out in any branch.  
+```
+$ git checkout <sha-1 of that commit>
+```
+![checkout](https://user-images.githubusercontent.com/37020817/66276548-4004b480-e862-11e9-9baf-2e39f071bc40.png)
 
 8. Push
 * The git push command is used to upload local repository content to a remote repository.
 * Pushing is how you transfer commits from local to remote repo.
+
+![pushpull](https://user-images.githubusercontent.com/37020817/66275636-9f5dc700-e858-11e9-8c0a-fa71f4e7a52b.jpg)
 ```
 $ git push
 ```
-![pushpull](https://user-images.githubusercontent.com/37020817/66275636-9f5dc700-e858-11e9-8c0a-fa71f4e7a52b.jpg)
+git push origin works the same as that of git push (without parameter).
+Here, we are assuming that you have named your remote repository as origin.
+
 ```
 $ git push origin
 ```
-* git push origin works the same as that of git push (without parameter).
-* Here, we are assuming that you have named your remote repository as origin.
+Push your branch-name branch only to remote repository named as origin.
+Here, we explicitly define name of a single branch to push.
+
 ```
 $ git push origin branch-name
 ```
-* Push your branch-name branch only to remote repository named as origin.
-* Here, we explicitly define name of a single branch to push.
 
 9. Pull
 * The git pull command is used to fetch and download content from a remote repository.

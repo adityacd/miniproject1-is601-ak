@@ -14,7 +14,15 @@ Further in this guide you can see how to completely use and manage a Github repo
 2. Clone
 * Clone is primarily used to point to an existing repo and make a clone or copy of that repo at in a new directory, at another location.
 * The original repository can be located on the local filesystem or on remote machine accessible supported protocols.
-* git clone is used.
+
+When you enter the following coommand, the **clone** of the local repo is created.
+```
+$ git clone <repo-URL>
+```
+Here the **local repository** is on left side and **remote repository** is on right side. 
+![Clone](https://user-images.githubusercontent.com/37020817/66275192-40964e80-e854-11e9-8d4f-2e3d07cf09d6.png)
+
+* You can use both SSH and HTTP link to clone a repo.
 
 3. Fork  
 * It is used to access the contents of the owner repository.

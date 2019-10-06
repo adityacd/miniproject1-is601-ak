@@ -28,10 +28,15 @@ Here the **local repository** is on left side and **remote repository** is on ri
 * It is used to access the contents of the owner repository.
 
 
+
 4. Branch
 * A branch is a reference to a commit. 
 * The branch represents the top of a series of commits.
 
+we can create a branch by 
+```
+git branch <branch-name>
+```
 
 5. Commit
 

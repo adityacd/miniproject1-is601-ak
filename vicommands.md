@@ -50,6 +50,19 @@ mkdir <directoryname>
 * It is used to create a folder to store files and information 
 * We use the command mkdir followed by file name. 
 
+To copy files 
+```
+cp frida.txt linoln.txt
+```
+If we want to copy a file to a directory we use cp with the source file as the first argument and the destination directory as the second argument.
+```
+cp biopic/ cleopatra.txt historical/
+```
+If we want to copy multiple files into a directory we use cp with a list of source files as the first arguments and the destination directory as the last argument.
+```
+cp biopic/ray.txt  biopic/notorious.txt  historical/
+```
+
 
 4. pwd 
 * It provides the current working directory. 

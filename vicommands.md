@@ -78,6 +78,11 @@ pwd
 * Instead of copy pasting manually we can move any file with a simple command in the terminal. 
 * The Syntax is mv <filename> <dir>.
 
+To move a file simply write source file as first argument and the destination directory as the second argument
+```
+mv superman.txt superhero/
+``` 
+
 6. rm   
 
 * rm stands for remove. 

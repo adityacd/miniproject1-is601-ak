@@ -22,7 +22,7 @@ $ git clone <repo-URL>
 Here the **local repository** is on left side and **remote repository** is on right side. 
 ![Clone](https://user-images.githubusercontent.com/37020817/66275192-40964e80-e854-11e9-8d4f-2e3d07cf09d6.png)
 
-* You can use both SSH and HTTP link to clone a repo.
+* You can use both **SSH and HTTP** link to clone a repo.
 
 3. Fork  
 * It is used to access the contents of the owner repository.
@@ -50,16 +50,16 @@ Here the **local repository** is on left side and **remote repository** is on ri
 * The git push command is used to upload local repository content to a remote repository.
 * Pushing is how you transfer commits from local to remote repo.
 ```
-git push
+$ git push
 ```
 ![pushpull](https://user-images.githubusercontent.com/37020817/66275636-9f5dc700-e858-11e9-8c0a-fa71f4e7a52b.jpg)
 ```
-git push origin
+$ git push origin
 ```
 * git push origin works the same as that of git push (without parameter).
 * Here, we are assuming that you have named your remote repository as origin.
 ```
-git push origin branch-name
+$ git push origin branch-name
 ```
 * Push your branch-name branch only to remote repository named as origin.
 * Here, we explicitly define name of a single branch to push.
@@ -69,12 +69,12 @@ git push origin branch-name
 * It immediately updates the local repository to match that content.
 
 ```
-git pull
+$ git pull
 ```
 
 The below command is used to pull changes from the origin remote, master branch and merge them to the local checked-out branch.
 ```
-git pull origin master
+$ git pull origin master
 ```
 
 10. Remote Add/Remove/Show

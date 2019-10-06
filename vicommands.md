@@ -50,32 +50,66 @@ mkdir <directoryname>
 * It is used to create a folder to store files and information 
 * We use the command mkdir followed by file name. 
 
+To copy files 
+```
+cp frida.txt linoln.txt
+```
+If we want to copy a file to a directory we use cp with the source file as the first argument and the destination directory as the second argument.
+```
+cp biopic/ cleopatra.txt historical/
+```
+If we want to copy multiple files into a directory we use cp with a list of source files as the first arguments and the destination directory as the last argument.
+```
+cp biopic/ray.txt  biopic/notorious.txt  historical/
+```
 
 4. pwd 
 * It provides the current working directory. 
 * Used to check where are we working in the file system. 
 * The command is pwd.
 
-
-
+To print current working directory simple write 
+```
+pwd
+```
 5. mv  
 
 * It is used to move files from one directory to another within the filesystem. 
 * Instead of copy pasting manually we can move any file with a simple command in the terminal. 
 * The Syntax is mv <filename> <dir>.
 
+To move a file simply write source file as first argument and the destination directory as the second argument
+```
+mv superman.txt superhero/
+``` 
+To move multiple files use mv with a list of source files as the first argument and the destination directory as last argument
+```
+mv wonderwoman.txt batman.txt superhero/
+```
 6. rm   
 
 * rm stands for remove. 
 * It is used to delete files or directories. 
 * The command is used by typing rm followed by the file or directory we want to delete.
- 
+
+To remove a file use rm followed by file name
+```
+rm waterboy.txt
+``` 
+To delete entire directory and all of its child directories
+```
+rm -r <directory name>
+```
 7. history 
 
 * It provides the history of the commands in the terminal. 
 * It is used to look throught the commands that you have entered. 
 * The syntax is history
 
+To print the history 
+```
+history
+```
 8. Home directory and ~
 * It shows and directs to the users **home directory** in the filesystem, simply enter the following.
 

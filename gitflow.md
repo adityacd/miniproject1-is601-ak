@@ -28,10 +28,16 @@ Here the **local repository** is on left side and **remote repository** is on ri
 * It is used to access the contents of the owner repository.
 
 
+
 4. Branch
 * A branch is a reference to a commit. 
 * The branch represents the top of a series of commits.
+![github branch](/Downloads/Branch-1)
 
+we can create a branch by 
+```
+git branch <branch-name>
+```
 
 5. Commit
 
@@ -54,6 +60,7 @@ $ git merge Feature
 ```
 7. Checkout
 * Th
+
 
 8. Push
 * The git push command is used to upload local repository content to a remote repository.

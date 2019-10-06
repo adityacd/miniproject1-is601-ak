@@ -63,13 +63,32 @@ To remove remove the connection to the remote repository just do the following.
 ```
 git remote rm <name>
 ```
-To rename a file use the following command. <old-name> changes to <new-name>.
+To rename a file use the following command <old-name> changes to <new-name>.
 ```
 git remote rename <old-name> <new-name>
 ```
 11. Status
 * The git status command displays the state of the working directory and the staging area.
 * It lets you see which changes have been staged, which haven’t, and which files aren’t being tracked by Git.
+Here you can see the status command tells which files should be added and which should be modified.
+```
+$ git status
+On branch aditya
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   gitflow.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        images/
+
+On branch aditya
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   gitflow.md
+
+```
 
 12. Master Branch
 * A branch in Git is simply a lightweight movable pointer to one of the commits.

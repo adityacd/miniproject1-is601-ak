@@ -82,7 +82,10 @@ To move a file simply write source file as first argument and the destination di
 ```
 mv superman.txt superhero/
 ``` 
-
+To move multiple files use mv with a list of source files as the first argument and the destination directory as last argument
+```
+mv wonderwoman.txt batman.txt superhero/
+```
 6. rm   
 
 * rm stands for remove. 

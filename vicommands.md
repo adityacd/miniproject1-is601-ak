@@ -68,8 +68,10 @@ cp biopic/ray.txt  biopic/notorious.txt  historical/
 * Used to check where are we working in the file system. 
 * The command is pwd.
 
-
-
+To print current working directory simple write 
+```
+pwd
+```
 5. mv  
 
 * It is used to move files from one directory to another within the filesystem. 

@@ -91,7 +91,11 @@ mv wonderwoman.txt batman.txt superhero/
 * rm stands for remove. 
 * It is used to delete files or directories. 
 * The command is used by typing rm followed by the file or directory we want to delete.
- 
+
+To remove a file use rm followed by file name
+```
+rm waterboy.txt
+``` 
 7. history 
 
 * It provides the history of the commands in the terminal. 

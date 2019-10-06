@@ -44,7 +44,29 @@
 10. Remote Add/Remove/Show
 * The git remote command lets you create, view, and delete connections to other repositories.
 * Remote connections are more like bookmarks rather than direct links into other repositories.
+The following are some commands of remote.
 
+List the remote connections you have to the  other repositories.
+```
+git remote
+origin
+```
+Here just include the URL of the connection.
+```
+git remote -v
+```
+After adding a remote, you’ll be able to use <name> as a convenient shortcut for <url> in other Git commands.
+```
+git remote add <name> <url>
+```
+To remove remove the connection to the remote repository just do the following.
+```
+git remote rm <name>
+```
+To rename a file use the following command. <old-name> changes to <new-name>.
+```
+git remote rename <old-name> <new-name>
+```
 11. Status
 * The git status command displays the state of the working directory and the staging area.
 * It lets you see which changes have been staged, which haven’t, and which files aren’t being tracked by Git.

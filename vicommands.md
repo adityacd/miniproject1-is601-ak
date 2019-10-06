@@ -41,9 +41,9 @@ cd ../..
 * We use the command mkdir followed by file name.
 
 To make a directory we use
-'''
+```
 mkdir <directoryname>
-'''
+```
 
 3. cp 
 * It stands for make directory

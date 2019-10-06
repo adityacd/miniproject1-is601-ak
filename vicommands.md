@@ -96,6 +96,10 @@ To remove a file use rm followed by file name
 ```
 rm waterboy.txt
 ``` 
+To delete entire directory and all of its child directories
+```
+rm -r <directory name>
+```
 7. history 
 
 * It provides the history of the commands in the terminal. 

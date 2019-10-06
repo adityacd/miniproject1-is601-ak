@@ -6,6 +6,11 @@
 * Your project's repository contains all of your project's files and stores each file's revision history.
 * You can also discuss and manage your project's work within the repository.
 
+This is how a Github Repository looks like.
+![repo](https://user-images.githubusercontent.com/37020817/66275082-227c1e80-e853-11e9-8448-33d31e8d03fe.png)
+
+Further in this guide you can see how to completely use and manage a Github repository.
+
 2. Clone
 * Clone is primarily used to point to an existing repo and make a clone or copy of that repo at in a new directory, at another location.
 * The original repository can be located on the local filesystem or on remote machine accessible supported protocols.
@@ -70,6 +75,7 @@ git remote rename <old-name> <new-name>
 11. Status
 * The git status command displays the state of the working directory and the staging area.
 * It lets you see which changes have been staged, which haven’t, and which files aren’t being tracked by Git.
+
 Here you can see the status command tells which files should be added and which should be modified.
 ```
 $ git status

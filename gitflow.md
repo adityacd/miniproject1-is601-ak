@@ -49,6 +49,20 @@ Here the **local repository** is on left side and **remote repository** is on ri
 8. Push
 * The git push command is used to upload local repository content to a remote repository.
 * Pushing is how you transfer commits from local to remote repo.
+```
+git push
+```
+![pushpull](https://user-images.githubusercontent.com/37020817/66275636-9f5dc700-e858-11e9-8c0a-fa71f4e7a52b.jpg)
+```
+git push origin
+```
+* git push origin works the same as that of git push (without parameter).
+* Here, we are assuming that you have named your remote repository as origin.
+```
+git push origin branch-name
+```
+* Push your branch-name branch only to remote repository named as origin.
+* Here, we explicitly define name of a single branch to push.
 
 9. Pull
 * The git pull command is used to fetch and download content from a remote repository.

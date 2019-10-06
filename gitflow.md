@@ -32,6 +32,7 @@ Here the **local repository** is on left side and **remote repository** is on ri
 4. Branch
 * A branch is a reference to a commit. 
 * The branch represents the top of a series of commits.
+![github branch](/Downloads/Branch-1)
 
 we can create a branch by 
 ```
@@ -49,6 +50,7 @@ git branch <branch-name>
 * The checkout is used in git to select a branch in a repository. 
 * Branching helps to organize work.
 * The branches can be merged toghether.
+
 
 
 8. Push

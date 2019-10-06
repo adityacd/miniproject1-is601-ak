@@ -106,6 +106,10 @@ rm -r <directory name>
 * It is used to look throught the commands that you have entered. 
 * The syntax is history
 
+To print the history 
+```
+history
+```
 8. Home directory and ~
 * It shows and directs to the users **home directory** in the filesystem, simply enter the following.
 

@@ -111,18 +111,50 @@ To print the history
 history
 ```
 8. Home directory and ~
-* It shows and directs to the users **home directory** in the filesystem, simply enter the following.
-
+* It shows and directs to the users **home directory** in the filesystem, simply enter the following command.
+```
+$ cd ~/
+```
 9. Filepath in Linux
 * A path is a unique location to a file or a folder in a file system. It is a combination of ( / ) and alpha-numeric characters.
 * An absolute path is defined as the specifying the location of a file or directory from the root directory( / ).
 * Start at the root directory ( / ) and work down.
 
+This is a picture representation of a filesystem.
+
+![filepath](https://user-images.githubusercontent.com/37020817/66277639-5402e300-e86f-11e9-8dde-fcd22b9a4552.png)
+
+```
+/home/user2/statusReport
+```
 10. Using tab key to complete file paths
-* The tab key is used to complete to filenames or git commands.
-* Instead of typing the complete filename or command, just enter 2-3 inital characters
- 
+* The tab key is used to complete to directories, filenames or git commands.
+* Instead of typing the complete name, just enter 3-4 inital characters,
+```
+$ cd mini
+``` 
 and press tab key.
+```
+cd miniproject1-is601-ak
+```
+As you can see the tab key completed the command.
+
 
 11. Using up and down arrow key for history
 * Up and Down arrow keys can be used to toggle through the previous commands that were entered.
+
+For example you have entered the commands mkdir <dir>, pwd, mv <filename>.
+
+When you press up arrow, the commands will be prompted as per the order they were entered.
+
+```
+$ 
+```
+Press up arrow.
+```
+$ mv <filname>
+```
+Press up arrow again.
+```
+$ pwd
+```

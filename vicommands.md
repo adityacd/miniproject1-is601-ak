@@ -15,7 +15,7 @@
 
 
 
-1. cd
+1. **cd**
 
 * It stands for change directory. 
 * It is used to change directories and go to other directories.
@@ -34,7 +34,7 @@ To go multiple directory up or back
 cd ../..
 ```
 
-2. mkdir
+2. **mkdir**
 
 * It stands for make directory.
 * It is used to create a folder to store files and information. 
@@ -45,7 +45,7 @@ To make a directory we use
 mkdir <directoryname>
 ```
 
-3. cp 
+3. **cp** 
 * It stands for make directory
 * It is used to create a folder to store files and information 
 * We use the command mkdir followed by file name. 
@@ -63,7 +63,7 @@ If we want to copy multiple files into a directory we use cp with a list of sour
 cp biopic/ray.txt  biopic/notorious.txt  historical/
 ```
 
-4. pwd 
+4. **pwd** 
 * It provides the current working directory. 
 * Used to check where are we working in the file system. 
 * The command is pwd.
@@ -72,7 +72,7 @@ To print current working directory simple write
 ```
 pwd
 ```
-5. mv  
+5. **mv**  
 
 * It is used to move files from one directory to another within the filesystem. 
 * Instead of copy pasting manually we can move any file with a simple command in the terminal. 
@@ -86,7 +86,7 @@ To move multiple files use mv with a list of source files as the first argument 
 ```
 mv wonderwoman.txt batman.txt superhero/
 ```
-6. rm   
+6. **rm**   
 
 * rm stands for remove. 
 * It is used to delete files or directories. 
@@ -100,7 +100,7 @@ To delete entire directory and all of its child directories
 ```
 rm -r <directory name>
 ```
-7. history 
+7. **history** 
 
 * It provides the history of the commands in the terminal. 
 * It is used to look throught the commands that you have entered. 
@@ -110,12 +110,12 @@ To print the history
 ```
 history
 ```
-8. Home directory and ~
+8. **Home directory and ~**
 * It shows and directs to the users **home directory** in the filesystem, simply enter the following command.
 ```
 $ cd ~/
 ```
-9. Filepath in Linux
+9. **Filepath in Linux**
 * A path is a unique location to a file or a folder in a file system. It is a combination of ( / ) and alpha-numeric characters.
 * An absolute path is defined as the specifying the location of a file or directory from the root directory( / ).
 * Start at the root directory ( / ) and work down.
@@ -127,7 +127,7 @@ This is a picture representation of a filesystem.
 ```
 /home/user2/statusReport
 ```
-10. Using tab key to complete file paths
+10. **Using tab key to complete file paths**
 * The tab key is used to complete to directories, filenames or git commands.
 * Instead of typing the complete name, just enter 3-4 inital characters,
 ```
@@ -140,13 +140,11 @@ cd miniproject1-is601-ak
 As you can see the tab key completed the command.
 
 
-11. Using up and down arrow key for history
+11. **Using up and down arrow key for history**
 * Up and Down arrow keys can be used to toggle through the previous commands that were entered.
 
-For example you have entered the commands mkdir <dir>, pwd, mv <filename>.
-
+For example you have entered the commands mkdir <dir>,pwd,mv <filename>.
 When you press up arrow, the commands will be prompted as per the order they were entered.
-
 ```
 $ 
 ```

@@ -66,7 +66,16 @@ git push origin branch-name
 
 9. Pull
 * The git pull command is used to fetch and download content from a remote repository.
-* It immediately update the local repository to match that content.
+* It immediately updates the local repository to match that content.
+
+```
+git pull
+```
+
+The below command is used to pull changes from the origin remote, master branch and merge them to the local checked-out branch.
+```
+git pull origin master
+```
 
 10. Remote Add/Remove/Show
 * The git remote command lets you create, view, and delete connections to other repositories.

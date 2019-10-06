@@ -6,7 +6,8 @@
 * Your project's repository contains all of your project's files and stores each file's revision history.
 * You can also discuss and manage your project's work within the repository.
 
-This is how a Github Repository looks like.
+This is how a **Github Repository** looks like.
+
 ![repo](https://user-images.githubusercontent.com/37020817/66275082-227c1e80-e853-11e9-8448-33d31e8d03fe.png)
 
 Further in this guide you can see how to completely use and manage a Github repository.
@@ -132,6 +133,10 @@ $ git remote rm <name>
 To rename a file use the following command <old-name> changes to <new-name>.
 ```
 $ git remote rename <old-name> <new-name>
+```
+To see the changes made in a particular commit, enter the following command.
+```
+$ git show <commitID>
 ```
 11. Status
 * The git status command displays the state of the working directory and the staging area.

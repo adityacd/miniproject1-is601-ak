@@ -1,7 +1,7 @@
 # miniproject1-is601-ak
 
 This is a Mini Project created by 
-**'Aditya Deshmukh' (acd53)**  **'Karan Kaul'(kk629)** for IS601 course.
+**'Aditya Deshmukh' (acd53)**  **'Karan Kaul'(kk629)** for (IS601) **Web Systems Development** course taught by **Prof. Keith Williams.**
 
 
 # Welcome to the Github guide!
@@ -23,10 +23,10 @@ This is a Mini Project created by
 
 # Index 
 
-## * [Getting friendly with Filesystem and Vi Commands](/vicommands.md)
-## * [Understanding the GitFlow](/gitflow.md)
-## * [Changelog](/changelog.md)
-## * Sources
+##  [Getting friendly with Filesystem and Vi Commands](/vicommands.md)
+##  [Understanding the GitFlow](/gitflow.md)
+##  [Changelog](/changelog.md)
+##  [Sources](/sources.md)
 
 
 

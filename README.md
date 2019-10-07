@@ -1,4 +1,4 @@
-                                                                             # miniproject1-is601-ak
+# miniproject1-is601-ak
 
 This is a Mini Project created by 
 **'Aditya Deshmukh' (acd53)**  

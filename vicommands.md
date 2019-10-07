@@ -27,15 +27,15 @@
 
 To go to a particular directory
 ```
-cd <directoryname>
+$ cd <directoryname>
 ```
 To go a directory back or up
 ```  
-cd ..
+$ cd ..
 ```
 To go multiple directory up or back
 ```
-cd ../..
+$ cd ../..
 ```
 
 2. **mkdir**
@@ -46,7 +46,7 @@ cd ../..
 
 To make a directory we use
 ```
-mkdir <directoryname>
+$ mkdir <directoryname>
 ```
 
 3. **cp** 
@@ -56,15 +56,15 @@ mkdir <directoryname>
 
 To copy files 
 ```
-cp frida.txt linoln.txt
+$ cp frida.txt linoln.txt
 ```
 If we want to copy a file to a directory we use cp with the source file as the first argument and the destination directory as the second argument.
 ```
-cp biopic/ cleopatra.txt historical/
+$ cp biopic/ cleopatra.txt historical/
 ```
 If we want to copy multiple files into a directory we use cp with a list of source files as the first arguments and the destination directory as the last argument.
 ```
-cp biopic/ray.txt  biopic/notorious.txt  historical/
+$ cp biopic/ray.txt  biopic/notorious.txt  historical/
 ```
 
 4. **pwd** 
@@ -74,7 +74,7 @@ cp biopic/ray.txt  biopic/notorious.txt  historical/
 
 To print current working directory simple write 
 ```
-pwd
+$ pwd
 ```
 5. **mv**  
 
@@ -84,11 +84,11 @@ pwd
 
 To move a file simply write source file as first argument and the destination directory as the second argument
 ```
-mv superman.txt superhero/
+$ mv superman.txt superhero/
 ``` 
 To move multiple files use mv with a list of source files as the first argument and the destination directory as last argument
 ```
-mv wonderwoman.txt batman.txt superhero/
+$ mv wonderwoman.txt batman.txt superhero/
 ```
 6. **rm**   
 
@@ -98,11 +98,11 @@ mv wonderwoman.txt batman.txt superhero/
 
 To remove a file use rm followed by file name
 ```
-rm waterboy.txt
+$ rm waterboy.txt
 ``` 
 To delete entire directory and all of its child directories
 ```
-rm -r <directory name>
+$ rm -r <directory name>
 ```
 7. **history** 
 
@@ -112,7 +112,7 @@ rm -r <directory name>
 
 To print the history 
 ```
-history
+$ history
 ```
 8. **Home directory and ~**
 * It shows and directs to the users **home directory** in the filesystem, simply enter the following command.
@@ -139,7 +139,7 @@ $ cd mini
 ``` 
 and press tab key.
 ```
-cd miniproject1-is601-ak
+$ cd miniproject1-is601-ak
 ```
 As you can see the tab key completed the command.
 

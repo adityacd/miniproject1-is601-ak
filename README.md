@@ -1,5 +1,8 @@
-# miniproject1-is601-ak
-This is a Mini Project created by **'Aditya Deshmukh'** and **'Karan Kaul'** for IS601 course.
+                                                                             # miniproject1-is601-ak
+
+This is a Mini Project created by 
+**'Aditya Deshmukh' (acd53)**  
+**'Karan Kaul'(kk629)** for IS601 course.
 
 
 # Welcome to the Github Tutorial
@@ -17,10 +20,10 @@ This is a Mini Project created by **'Aditya Deshmukh'** and **'Karan Kaul'** for
 7. Continuous Integration helps increase code coverage, helps deploy your code to production and build stuff faster. 
 
 
-1. [Getting friendly with Filesystem and Vi Commands](/vicommands.md)
-2. [Understanding the GitFlow](/gitflow.md)
-3. [Changelog](/changelog.md)
-4. Sources
+ [Getting friendly with Filesystem and Vi Commands](/vicommands.md)
+ [Understanding the GitFlow](/gitflow.md)
+ [Changelog](/changelog.md)
+ Sources
 
 
 

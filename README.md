@@ -21,10 +21,12 @@ This is a Mini Project created by
 7. Continuous Integration helps increase code coverage, helps deploy your code to production and build stuff faster. 
 
 
-* [Getting friendly with Filesystem and Vi Commands](/vicommands.md)
-* [Understanding the GitFlow](/gitflow.md)
-* [Changelog](/changelog.md)
-* Sources
+#Index 
+
+##* [Getting friendly with Filesystem and Vi Commands](/vicommands.md)
+##* [Understanding the GitFlow](/gitflow.md)
+##* [Changelog](/changelog.md)
+##* Sources
 
 
 

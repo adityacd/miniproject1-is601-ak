@@ -43,6 +43,10 @@ git branch <branch-name>
 
 * It captures the snapshot of the currently made changes in git. 
 
+We can commit using the command
+```
+git commit -m "text to written"
+``` 
 6. Merge
 * It is used to merge the work from different branches to the master branch. 
 

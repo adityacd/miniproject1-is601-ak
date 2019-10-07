@@ -55,7 +55,7 @@ Here the **local repository** is on left side and **remote repository** is on ri
 
 we can create a branch by 
 ```
-git branch <branch-name>
+$ git branch <branch-name>
 ```
 
 5. **Commit**
@@ -64,7 +64,7 @@ git branch <branch-name>
 
 We can commit using the command
 ```
-git commit -m "text to written"
+$ git commit -m "text to written"
 ``` 
 6. **Merge**
 * It is used to merge the work from different branches to the master branch. 

@@ -15,6 +15,8 @@
 * vi (pronounced "vee-eye") is short for "vi"sual editor. It displays a window into the file being edited that shows 24 lines of text.
 * vi lets you add, change, and delete text, but does not provide such formatting capabilities as centering lines or indenting paragraphs.
 
+![viimage](https://user-images.githubusercontent.com/55159276/66344312-7fdba280-e91b-11e9-9955-f07e1edeffd2.png)
+
 
 
 1. **cd**

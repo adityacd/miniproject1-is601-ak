@@ -1,6 +1,6 @@
-## Understanding the Gitflow
+# Understanding the Gitflow
 
-# What is Gitflow?
+## What is Gitflow?
   Gitflow is a branching method for Git created by Vincent Driessen at nvie. It provides a framework for organising and managing large scale projects.
   Gitflow is ideally suitable for projects that have a scheduled release cycle. It uses individual branches for preparing, maintaining and recording releases.
   
@@ -12,9 +12,9 @@
 * Traversing between branches is easy. 
 * It helps keep the repository presentable and understandable.
 
-# Common Git Terminology
+## Common Git Terminology
 
-1. Repository
+1. **Repository**
 * A repository is like a folder for your project.
 * Your project's repository contains all of your project's files and stores each file's revision history.
 * You can also discuss and manage your project's work within the repository.
@@ -25,7 +25,7 @@ This is how a **Github Repository** looks like.
 
 Further in this guide you can see how to completely use and manage a Github repository.
 
-2. Clone
+2. **Clone**
 * Clone is primarily used to point to an existing repo and make a clone or copy of that repo at in a new directory, at another location.
 * The original repository can be located on the local filesystem or on remote machine accessible supported protocols.
 
@@ -38,22 +38,24 @@ Here the **local repository** is on left side and **remote repository** is on ri
 
 * You can use both **SSH and HTTP** link to clone a repo.
 
-3. Fork  
+3. **Fork**  
 * It is used to access the contents of the owner repository.
 
 
 
-4. Branch
+4. **Branch**
 * A branch is a reference to a commit. 
 * The branch represents the top of a series of commits.
-![github branch](/Downloads/Branch-1)
+
+![images](https://user-images.githubusercontent.com/55159276/66344514-1d36d680-e91c-11e9-8524-feb1727827a9.png)
+
 
 we can create a branch by 
 ```
 git branch <branch-name>
 ```
 
-5. Commit
+5. **Commit**
 
 * It captures the snapshot of the currently made changes in git. 
 
@@ -61,7 +63,7 @@ We can commit using the command
 ```
 git commit -m "text to written"
 ``` 
-6. Merge
+6. **Merge**
 * It is used to merge the work from different branches to the master branch. 
 * Merging updates the commits (or changes) that are made from one branch to another. 
 ```
@@ -76,7 +78,7 @@ The command will be,
 ```
 $ git merge Feature
 ```
-7. Checkout
+7. **Checkout**
 * The checkout is used in git to select a branch in a repository.
 
 This command will select the branch 'aditya'. Similarly you can select the master branch.
@@ -91,7 +93,7 @@ $ git checkout <sha-1 of that commit>
 ```
 ![checkout](https://user-images.githubusercontent.com/37020817/66276548-4004b480-e862-11e9-9baf-2e39f071bc40.png)
 
-8. Push
+8. **Push**
 * The git push command is used to upload local repository content to a remote repository.
 * Pushing is how you transfer commits from local to remote repo.
 
@@ -112,7 +114,7 @@ Here, we explicitly define name of a single branch to push.
 $ git push origin branch-name
 ```
 
-9. Pull
+9. **Pull**
 * The git pull command is used to fetch and download content from a remote repository.
 * It immediately updates the local repository to match that content.
 
@@ -125,7 +127,7 @@ The below command is used to pull changes from the origin remote, master branch 
 $ git pull origin master
 ```
 
-10. Remote Add/Remove/Show
+10. **Remote Add/Remove/Show**
 * The git remote command lets you create, view, and delete connections to other repositories.
 * Remote connections are more like bookmarks rather than direct links into other repositories.
 The following are some commands of remote.
@@ -155,7 +157,7 @@ To see the changes made in a particular commit, enter the following command.
 ```
 $ git show <commitID>
 ```
-11. Status
+11. **Status**
 * The git status command displays the state of the working directory and the staging area.
 * It lets you see which changes have been staged, which haven’t, and which files aren’t being tracked by Git.
 
@@ -179,7 +181,7 @@ Changes to be committed:
 
 ```
 
-12. Master Branch
+12. **Master Branch**
 * A branch in Git is simply a lightweight movable pointer to one of the commits.
 * The default branch name in Git is **master**.
 * As you start making commits, you're given a master branch that points to the last commit you made.

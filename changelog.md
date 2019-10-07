@@ -16,10 +16,13 @@
 - Task: What is git flow section added? by [@kk629](https://github.com/kk629).
 
 ### Fixed
+- Fix: Syntax Fixing in gitflow.md by [@aditya](https://github.com/adityacd).
+- Fix: Syntax Fixing in viicommands.md by [@aditya](https://github.com/adityacd).
 - Fix: Fixed the syntax in sources.md by [@aditya](https://github.com/adityacd).
 - Fix: Fixed the content in readme by [@aditya](https://github.com/adityacd).
 - Fix: content formating by [@kk629](https://github.com/kk629).
 - Fix: Syntax fixed by [@kk629](https://github.com/kk629).
+
 
 
 

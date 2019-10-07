@@ -8,6 +8,8 @@
 * Without a file system, stored information wouldn't be isolated into individual files and difficult to identify.
 * As data capacities increase, the organization and accessibility of individual files are becoming even more important in storage.
 
+![filesystem](https://user-images.githubusercontent.com/37020817/66278403-a1cf1980-e876-11e9-9e12-ff2d5d16f208.jpg)
+
 ## What is vi?
 * The vi editor (short for visual editor) is a screen editor which is available on almost all Unix systems. Once you have learned vi, you will find that it is a fast and powerful editor. vi has no menus but instead uses combinations of keystrokes in order to accomplish commands. 
 * vi (pronounced "vee-eye") is short for "vi"sual editor. It displays a window into the file being edited that shows 24 lines of text.
@@ -141,9 +143,10 @@ As you can see the tab key completed the command.
 
 
 11. **Using up and down arrow key for history**
+
 * Up and Down arrow keys can be used to toggle through the previous commands that were entered.
 
-For example you have entered the commands mkdir <dir>,pwd,mv <filename>.
+For example you have entered the commands pwd,mv <filename>.
 When you press up arrow, the commands will be prompted as per the order they were entered.
 ```
 $ 

@@ -3,7 +3,9 @@
 ## What is Gitflow?
   Gitflow is a branching method for Git created by Vincent Driessen at nvie. It provides a framework for organising and managing large scale projects.
   Gitflow is ideally suitable for projects that have a scheduled release cycle. It uses individual branches for preparing, maintaining and recording releases.
-  
+
+![GitFlow](https://user-images.githubusercontent.com/55159276/66345457-2163f380-e91e-11e9-85d3-588bc285ac02.png)
+
   Now that we know what is Gitflow let's look at the advantages of it:-
 
 * Gitflow was developed to manage the branching mechanism with a standardised approach when creating features, handling releases and fixing hotfixes.
@@ -47,7 +49,8 @@ Here the **local repository** is on left side and **remote repository** is on ri
 * A branch is a reference to a commit. 
 * The branch represents the top of a series of commits.
 
-![images](https://user-images.githubusercontent.com/55159276/66344514-1d36d680-e91c-11e9-8524-feb1727827a9.png)
+![newimagebranch](https://user-images.githubusercontent.com/55159276/66345194-8c60fa80-e91d-11e9-9119-71d1e462977c.jpeg)
+
 
 
 we can create a branch by 

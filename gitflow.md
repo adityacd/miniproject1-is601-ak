@@ -6,7 +6,8 @@
 * Your project's repository contains all of your project's files and stores each file's revision history.
 * You can also discuss and manage your project's work within the repository.
 
-This is how a Github Repository looks like.
+This is how a **Github Repository** looks like.
+
 ![repo](https://user-images.githubusercontent.com/37020817/66275082-227c1e80-e853-11e9-8448-33d31e8d03fe.png)
 
 Further in this guide you can see how to completely use and manage a Github repository.
@@ -49,31 +50,54 @@ git commit -m "text to written"
 ``` 
 6. Merge
 * It is used to merge the work from different branches to the master branch. 
+* Merging updates the commits (or changes) that are made from one branch to another. 
+```
+$ git merge
+```
+* Here you can see the **Feature Branch**(green) is merged with **Master Branch**(sky blue).
+* This merging is also commited.
 
+![Merge](https://user-images.githubusercontent.com/37020817/66276367-5873cf80-e860-11e9-8992-3513d9401a88.png)
+
+The command will be,
+```
+$ git merge Feature
+```
 7. Checkout
-* The checkout is used in git to select a branch in a repository. 
-* Branching helps to organize work.
-* The branches can be merged toghether.
+* The checkout is used in git to select a branch in a repository.
 
+This command will select the branch 'aditya'. Similarly you can select the master branch.
+```
+$ git checkout aditya
+```
 
+If you want to go back to a previous commit, while keeping all of your other history, simply checkout that commit.
+This will put you in a detached state, where you're not checked out in any branch.  
+```
+$ git checkout <sha-1 of that commit>
+```
+![checkout](https://user-images.githubusercontent.com/37020817/66276548-4004b480-e862-11e9-9baf-2e39f071bc40.png)
 
 8. Push
 * The git push command is used to upload local repository content to a remote repository.
 * Pushing is how you transfer commits from local to remote repo.
+
+![pushpull](https://user-images.githubusercontent.com/37020817/66275636-9f5dc700-e858-11e9-8c0a-fa71f4e7a52b.jpg)
 ```
 $ git push
 ```
-![pushpull](https://user-images.githubusercontent.com/37020817/66275636-9f5dc700-e858-11e9-8c0a-fa71f4e7a52b.jpg)
+git push origin works the same as that of git push (without parameter).
+Here, we are assuming that you have named your remote repository as origin.
+
 ```
 $ git push origin
 ```
-* git push origin works the same as that of git push (without parameter).
-* Here, we are assuming that you have named your remote repository as origin.
+Push your branch-name branch only to remote repository named as origin.
+Here, we explicitly define name of a single branch to push.
+
 ```
 $ git push origin branch-name
 ```
-* Push your branch-name branch only to remote repository named as origin.
-* Here, we explicitly define name of a single branch to push.
 
 9. Pull
 * The git pull command is used to fetch and download content from a remote repository.
@@ -95,24 +119,28 @@ The following are some commands of remote.
 
 List the remote connections you have to the  other repositories.
 ```
-git remote
+$ git remote
 origin
 ```
 Here just include the URL of the connection.
 ```
-git remote -v
+$ git remote -v
 ```
 After adding a remote, you’ll be able to use <name> as a convenient shortcut for <url> in other Git commands.
 ```
-git remote add <name> <url>
+$ git remote add <name> <url>
 ```
 To remove remove the connection to the remote repository just do the following.
 ```
-git remote rm <name>
+$ git remote rm <name>
 ```
 To rename a file use the following command <old-name> changes to <new-name>.
 ```
-git remote rename <old-name> <new-name>
+$ git remote rename <old-name> <new-name>
+```
+To see the changes made in a particular commit, enter the following command.
+```
+$ git show <commitID>
 ```
 11. Status
 * The git status command displays the state of the working directory and the staging area.
@@ -143,3 +171,5 @@ Changes to be committed:
 * The default branch name in Git is **master**.
 * As you start making commits, you're given a master branch that points to the last commit you made.
 * Every time you commit, the master branch pointer moves forward automatically.
+
+![Branch](https://user-images.githubusercontent.com/37020817/66276352-22365000-e860-11e9-97ea-dea43e14497e.png)

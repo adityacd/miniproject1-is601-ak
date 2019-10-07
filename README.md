@@ -2,8 +2,9 @@
 This is a Mini Project created by **'Aditya Deshmukh'** and **'Karan Kaul'** for IS601 course.
 
 
-### Welcome to the Github Tutorial
+# Welcome to the Github Tutorial
 
+<<<<<<< HEAD
 #This tutorial will help you to understand the basics of **Filesystems** and **Gitflow**.
 * How using Github, Docker, Automated testing and Continuous Integration can help improve productivity:
 
@@ -14,11 +15,14 @@ This is a Mini Project created by **'Aditya Deshmukh'** and **'Karan Kaul'** for
 * 5. Docker helps in continuous integration efficiency, compatibility,maintainability,continuous deployment and testing.
 * 6. Automated testing provides faster feedback,accelerated results,higher overall test coverage and reduced business coverages.
 * 7. Continuous Integration helps increase code coverage, helps deploy your code to production and build stuff faster. 
+=======
+## This tutorial will help you to understand the basics of **Filesystems** and **Gitflow**.
+>>>>>>> 726008122e559c46a01c74107eb7555bf90638c0
 
-1. [Getting friendly with Filesystem and Vi Commands](/vicommands.md)
-2. [Understanding the GitFlow](/gitflow.md)
-3. [Changelog](/changelog.md)
-4. Sources
+# **1. [Getting friendly with Filesystem and Vi Commands](/vicommands.md)**
+# **2. [Understanding the GitFlow](/gitflow.md)**
+# **3. [Changelog](/changelog.md)**
+# **4. Sources**
 
 
 

@@ -1,7 +1,7 @@
 # miniproject1-is601-ak
 
 This is a Mini Project created by 
-**'Aditya Deshmukh' (acd53)**  **'Karan Kaul'(kk629)** for (IS601) **Web Systems Development** course taught by **Prof. Keith Williams.**
+**'Aditya Deshmukh' (acd53)** and **'Karan Kaul'(kk629)** for (IS601) **Web Systems Development** course taught by **Prof. Keith Williams.**
 
 
 # Welcome to the Github guide!
@@ -21,12 +21,13 @@ This is a Mini Project created by
 7. Continuous Integration helps increase code coverage, helps deploy your code to production and build stuff faster. 
 
 
-# Index 
 
-##  [Getting friendly with Filesystem and Vi Commands](/vicommands.md)
-##  [Understanding the GitFlow](/gitflow.md)
-##  [Changelog](/changelog.md)
-##  [Sources](/sources.md)
+## Index 
+
+* [Getting friendly with Filesystem and Vi Commands](/vicommands.md)
+* [Understanding the GitFlow](/gitflow.md)
+* [Changelog](/changelog.md)
+* [Sources](/sources.md)
 
 
 

@@ -148,11 +148,11 @@ After adding a remote, you’ll be able to use <name> as a convenient shortcut f
 ```
 $ git remote add <name> <url>
 ```
-To remove remove the connection to the remote repository just do the following.
+To remove the connection to the remote repository just do the following.
 ```
 $ git remote rm <name>
 ```
-To rename a file use the following command <old-name> changes to <new-name>.
+To rename a file use the following command 'old-name' changes to 'new-name'.
 ```
 $ git remote rename <old-name> <new-name>
 ```

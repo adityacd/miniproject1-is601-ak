@@ -3,6 +3,13 @@
 # All notable changes to this project will be documented in this file.
 
 
+
+## [1.0.0] - 2019-10-08
+
+### Fixed
+- Fix: Fixed the remote content by [@aditya](https://github.com/adityacd).
+
+
 ## [1.0.0] - 2019-10-07
 
 ### Added

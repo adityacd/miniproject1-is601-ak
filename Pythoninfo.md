@@ -16,4 +16,6 @@ c)Behavioural design patterns
 **4. Class:-**
 A class in python is basically an object constructor or a blueprint for creating objects.
 
- 
+ **5. Objects:-**
+Object is an element of a class, and it has the behaviour of it’s class.
+

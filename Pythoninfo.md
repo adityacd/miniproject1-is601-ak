@@ -37,4 +37,6 @@ It is the first level of software testing in python, in which the smallest testa
 **Constructor:-** 
 Constructor is a unique kind of method that is called by python when it instantiates an object using the definitions in class.  
 
+**Factory:-** 
+It is  a creational design pattern used for creating implementations of a common interface. It helps in separating the procedure for creating an object using code that depends on the interface of the object. 
 

@@ -34,5 +34,7 @@ It is an error which python throws during the execution of a program. When the e
 **Unit test:-** 
 It is the first level of software testing in python, in which the smallest testables part of software are tested. This helps in identifying that each unit of the software functions as designed.
 
+**Constructor:-** 
+Constructor is a unique kind of method that is called by python when it instantiates an object using the definitions in class.  
 
 

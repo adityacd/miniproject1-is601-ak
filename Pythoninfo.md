@@ -13,5 +13,7 @@ a)Creational design patterns
 b)Structural design patterns
 c)Behavioural design patterns
 
+**4. Class:-**
+A class in python is basically an object constructor or a blueprint for creating objects.
 
  

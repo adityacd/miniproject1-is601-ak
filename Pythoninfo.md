@@ -24,3 +24,6 @@ A static is a method which is bound to a class, rather than the objects for that
 
 **7. Property/Attribute:-** 
 An attribute belongs to a class itself and it is shared by all instances of that class, it is defined in the class body at the top. Instance attributes are not are not shared by objects.
+
+**8. Method:-** 
+Method is a function that is available for an object due to the object’s type and it is a member of the class.

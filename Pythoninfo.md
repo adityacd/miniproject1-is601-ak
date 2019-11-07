@@ -31,14 +31,17 @@ Method is a function that is available for an object due to the object’s type 
 **9. Exception:-**
 It is an error which python throws during the execution of a program. When the error occurs, python creates an exception that can be handled which prevents our program from crashing.
 
-**Unit test:-** 
+**10. Unit test:-** 
 It is the first level of software testing in python, in which the smallest testables part of software are tested. This helps in identifying that each unit of the software functions as designed.
 
-**Constructor:-** 
+**11. Constructor:-** 
 Constructor is a unique kind of method that is called by python when it instantiates an object using the definitions in class.  
 
-**Factory:-** 
+**12.Factory:-** 
 It is  a creational design pattern used for creating implementations of a common interface. It helps in separating the procedure for creating an object using code that depends on the interface of the object. 
 
-**Decorator:-** 
+**13. Decorator:-** 
 A decorator in python is a design pattern that permits the user to add new functionality to a current object without changing its structure. They are usually called before definition of a function we want to decorate.
+
+**14. Extend class python:-**  
+Extend allows one class to access and use the functions of the other class.

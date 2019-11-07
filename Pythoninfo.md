@@ -27,3 +27,7 @@ An attribute belongs to a class itself and it is shared by all instances of that
 
 **8. Method:-** 
 Method is a function that is available for an object due to the object’s type and it is a member of the class.
+
+**9. Exception:-**
+It is an error which python throws during the execution of a program. When the error occurs, python creates an exception that can be handled which prevents our program from crashing.
+

@@ -31,3 +31,8 @@ Method is a function that is available for an object due to the object’s type 
 **9. Exception:-**
 It is an error which python throws during the execution of a program. When the error occurs, python creates an exception that can be handled which prevents our program from crashing.
 
+**Unit test:-** 
+It is the first level of software testing in python, in which the smallest testables part of software are tested. This helps in identifying that each unit of the software functions as designed.
+
+
+

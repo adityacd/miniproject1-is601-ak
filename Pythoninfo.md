@@ -40,3 +40,5 @@ Constructor is a unique kind of method that is called by python when it instanti
 **Factory:-** 
 It is  a creational design pattern used for creating implementations of a common interface. It helps in separating the procedure for creating an object using code that depends on the interface of the object. 
 
+**Decorator:-** 
+A decorator in python is a design pattern that permits the user to add new functionality to a current object without changing its structure. They are usually called before definition of a function we want to decorate.

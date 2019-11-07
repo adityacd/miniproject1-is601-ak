@@ -19,3 +19,5 @@ A class in python is basically an object constructor or a blueprint for creating
  **5. Objects:-**
 Object is an element of a class, and it has the behaviour of it’s class.
 
+**6. Static:-** 
+A static is a method which is bound to a class, rather than the objects for that class. It can be called without an object.

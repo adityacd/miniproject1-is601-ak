@@ -46,5 +46,8 @@ A decorator in python is a design pattern that permits the user to add new funct
 **14. Extend class python:-**  
 Extend allows one class to access and use the functions of the other class.
 
-**15. CSV files :-**
+**15. CSV files:-**
 A CSV file is a comma separated value, which is a file format  that are used for storing tabular data of excel or sheets.
+
+**Reading files in Python:-**
+Python allows us to Read,write and delete files. We can read files in python by using the "read" function to read the entire contents of a file.

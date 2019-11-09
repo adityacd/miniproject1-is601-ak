@@ -121,6 +121,15 @@ print(st.marks)
 
 **8. Method:-** 
 Method is a function that is available for an object due to the object’s type and it is a member of the class.
+```
+# Python 3  User-Defined  Method 
+class ABC : 
+    def method_abc (self): 
+        print("I am in method_abc of ABC class. ") 
+  
+class_ref = ABC() # object of ABC class 
+class_ref.method_abc() 
+```
 
 **9. Exception:-**
 It is an error which python throws during the execution of a program. When the error occurs, python creates an exception that can be handled which prevents our program from crashing.

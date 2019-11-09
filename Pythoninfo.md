@@ -22,6 +22,23 @@ The design patterns from Gang Of Four are based on object oriented programming a
 a)Creational design patterns
 b)Structural design patterns
 c)Behavioural design patterns
+```
+a)Types of creational design patterns:-
+-Abstract factory
+-Builder
+-Factory model
+-Prototype
+-Singleton
+
+b)Types of structural design patterns:-
+-Adapter
+-Bridge
+-Composite
+-Decorator
+-Facade
+-Flyweight
+-Proxy
+```
 
 **4. Class:-**
 A class in python is basically an object constructor or a blueprint for creating objects.

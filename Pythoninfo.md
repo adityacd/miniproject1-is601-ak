@@ -38,6 +38,19 @@ b)Types of structural design patterns:-
 -Facade
 -Flyweight
 -Proxy
+
+c)Types of behavioural design patterns:-
+-Chain of responsibilty
+-Command
+-Interpreter
+-Iterator
+-Mediator
+-Memento
+-Observer
+-State
+-Strategy
+-Template Method
+-Visitor
 ```
 
 **4. Class:-**

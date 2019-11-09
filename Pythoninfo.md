@@ -55,6 +55,10 @@ c)Types of behavioural design patterns:-
 
 **4. Class:-**
 A class in python is basically an object constructor or a blueprint for creating objects.
+```Following is an example of class:-
+class Web_Systems_Development:
+x = 6
+```
 
  **5. Objects:-**
 Object is an element of a class, and it has the behaviour of it’s class.

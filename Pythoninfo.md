@@ -150,7 +150,28 @@ TypeError: Can't convert 'int' object to str implicitly
 
 **10. Unit test:-** 
 It is the first level of software testing in python, in which the smallest testables part of software are tested. This helps in identifying that each unit of the software functions as designed.
+```
+import unittest
 
+class TestStringMethods(unittest.TestCase):
+
+    def test_upper(self):
+        self.assertEqual('foo'.upper(), 'FOO')
+
+    def test_isupper(self):
+        self.assertTrue('FOO'.isupper())
+        self.assertFalse('Foo'.isupper())
+
+    def test_split(self):
+        s = 'hello world'
+        self.assertEqual(s.split(), ['hello', 'world'])
+        # check that s.split fails when the separator is not a string
+        with self.assertRaises(TypeError):
+            s.split(2)
+
+if __name__ == '__main__':
+    unittest.main()
+  ```
 **11. Constructor:-** 
 Constructor is a unique kind of method that is called by python when it instantiates an object using the definitions in class.  
 

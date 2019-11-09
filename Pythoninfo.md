@@ -266,6 +266,23 @@ function_to_be_used()
 
 **14. Extend class python:-**  
 Extend allows one class to access and use the functions of the other class.
+```
+class Robot:
+    
+    def __init__(self, name):
+        self.name = name
+        
+    def say_hi(self):
+        print("Hi, I am " + self.name)
+        
+class PhysicianRobot(Robot):
+    pass
+x = Robot("Marvin")
+y = PhysicianRobot("James")
+print(x, type(x))
+print(y, type(y))
+y.say_hi()
+```
 
 **15. CSV files:-**
 A CSV file is a comma separated value, which is a file format  that are used for storing tabular data of excel or sheets.

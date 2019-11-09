@@ -86,6 +86,38 @@ print('Product:', Calculator.multiplyNums(15, 110))
 
 **7. Property/Attribute:-** 
 An attribute belongs to a class itself and it is shared by all instances of that class, it is defined in the class body at the top. Instance attributes are not are not shared by objects.
+```
+class Student:
+    def __init__(self, name, marks):
+        self.name = name
+        self.marks = marks
+        # self.gotmarks = self.name + ' obtained ' + self.marks + ' marks'
+
+    @property
+    def gotmarks(self):
+        return self.name + ' obtained ' + self.marks + ' marks'
+
+    @gotmarks.setter
+    def gotmarks(self, sentence):
+        name, rand, marks = sentence.split(' ')
+        self.name = name
+        self.marks = marks
+
+
+st = Student("Jaki", "25")
+print(st.name)
+print(st.marks)
+print(st.gotmarks)
+print("##################")
+st.name = "Anusha"
+print(st.name)
+print(st.gotmarks)
+print("##################")
+st.gotmarks = 'Golam obtained 36'
+print(st.gotmarks)
+print(st.name)
+print(st.marks)
+```
 
 **8. Method:-** 
 Method is a function that is available for an object due to the object’s type and it is a member of the class.

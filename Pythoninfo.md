@@ -62,6 +62,13 @@ x = 6
 
  **5. Objects:-**
 Object is an element of a class, and it has the behaviour of it’s class.
+```
+class MyWSD:
+  x = 7
+
+k1 = MyWSD()     #defined object
+print(k1.x)
+```
 
 **6. Static:-** 
 A static is a method which is bound to a class, rather than the objects for that class. It can be called without an object.

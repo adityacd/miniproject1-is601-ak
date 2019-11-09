@@ -197,7 +197,36 @@ obj.print_karan()
 
 **12.Factory:-** 
 It is  a creational design pattern used for creating implementations of a common interface. It helps in separating the procedure for creating an object using code that depends on the interface of the object. 
+```
+class SongSerializer:
+    def serialize(self, song, format):
+        serializer = self._get_serializer(format)
+        return serializer(song)
 
+    def _get_serializer(self, format):
+        if format == 'JSON':
+            return self._serialize_to_json
+        elif format == 'XML':
+            return self._serialize_to_xml
+        else:
+            raise ValueError(format)
+
+    def _serialize_to_json(self, song):
+        payload = {
+            'id': song.song_id,
+            'title': song.title,
+            'artist': song.artist
+        }
+        return json.dumps(payload)
+
+    def _serialize_to_xml(self, song):
+        song_element = et.Element('song', attrib={'id': song.song_id})
+        title = et.SubElement(song_element, 'title')
+        title.text = song.title
+        artist = et.SubElement(song_element, 'artist')
+        artist.text = song.artist
+        return et.tostring(song_element, encoding='unicode')
+```
 **13. Decorator:-** 
 A decorator in python is a design pattern that permits the user to add new functionality to a current object without changing its structure. They are usually called before definition of a function we want to decorate.
 

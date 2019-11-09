@@ -72,6 +72,17 @@ print(k1.x)
 
 **6. Static:-** 
 A static is a method which is bound to a class, rather than the objects for that class. It can be called without an object.
+```
+class Calculator:
+
+    def multiplyNums(x, y):
+        return x + y
+
+# create addNumbers static method
+Calculator.multiplyNums = staticmethod(Calculator.multiplyNums)
+
+print('Product:', Calculator.multiplyNums(15, 110))
+```
 
 **7. Property/Attribute:-** 
 An attribute belongs to a class itself and it is shared by all instances of that class, it is defined in the class body at the top. Instance attributes are not are not shared by objects.

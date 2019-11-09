@@ -174,6 +174,26 @@ if __name__ == '__main__':
   ```
 **11. Constructor:-** 
 Constructor is a unique kind of method that is called by python when it instantiates an object using the definitions in class.  
+```
+
+class karankaul: 
+    karan = "" 
+  
+    # default constructor 
+    def __init__(self): 
+        self.karan = "karankaul"
+  
+    # a method for printing data members 
+    def print_karan(self): 
+        print(self.karan) 
+  
+  
+# creating object of the class 
+obj = karankaul() 
+  
+# calling the instance method using the object obj 
+obj.print_karan() 
+```
 
 **12.Factory:-** 
 It is  a creational design pattern used for creating implementations of a common interface. It helps in separating the procedure for creating an object using code that depends on the interface of the object. 

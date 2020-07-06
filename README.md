@@ -1,10 +1,10 @@
-# miniproject1-is601-ak
+# Welcome to the Github guide!
+
+[![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/for-you.svg)](https://forthebadge.com)
 
 This is a Mini Project created by 
 **'Aditya Deshmukh' (acd53)** and **'Karan Kaul'(kk629)** for (IS601) **Web Systems Development** course taught by **Prof. Keith Williams.**
 
-
-# Welcome to the Github guide!
 
 
 ## This guide will help you to understand the basics of **Filesystems** and **Gitflow**.
